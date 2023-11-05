@@ -671,7 +671,7 @@ right: 24px;
 width: 24px;
 height: 24px;
 border-radius: 50%;
-border-color: 1px rgba(0, 0, 0, 0.10);
+border: 1px solid rgba(0, 0, 0, 0.10);
 background-color: #E7E9FC;
 line-height: 0;
 fill: #2E2F42;
@@ -713,7 +713,7 @@ margin-bottom: 4px;
 }
 
 .rewiew-fild-wrapper {
-margin-bottom: 18px;
+margin-bottom: 8px;
 }
 
 .rewiew-form-input-wraper {
@@ -772,7 +772,82 @@ color: rgba(46, 47, 66, 0.40));
   outline-offset: 4px;
 }
 
+.rewiew-form-checkbox-wrapper {
+  margin-bottom: 24px;
+}
 
+.rewiew-form-checkbox-label {
+color:  #8E8F99;
+font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.04em;
+}
 
+.privacy-policy-link {
+  color: #4D5AE5;
+   font-size: 12px;
+   line-height: 1.16px;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+}
+
+.rewie-our-form-checkbox {
+display: inline-flex;
+justify-content: center;
+align-items: center;
+width: 16px;
+height: 16px;
+border: 1px solid rgba(46, 47, 66, 0.40);
+border-radius: 2px;
+cursor: pointer;
+fill: transparent;
+margin-right: 8px;
+}
+
+.rewiew-form-checkbox:checked 
++ .rewiew-form-checkbox-label 
+.rewie-our-form-checkbox {
+  background-color: #404BBF;
+  fill: #F4F4FD;
+}
+
+.rewiew-form-checkbox:focus 
++ .rewiew-form-checkbox-label 
+.rewie-our-form-checkbox {
+outline: 2px solid rgba(0, 0, 255, 0.5);
+}
 /* *============= /REWIEW FORM STYLES ============* */
 
+/* ============= BUTTON STYLES ============ */
+
+.review-form-button {
+display: block;
+min-width: 169px;
+height: 56px;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+border: none;
+border-radius: 4px;
+background-color: #4D5AE5;
+cursor: pointer;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+margin-left: 95px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-form-text {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1,5;
+  letter-spacing: 0.04em;
+}
+
+.review-form-button:hover,
+.review-form-button:focus {
+background-color: #404BBF;
+}
+
+/* ============= /BUTTON STYLES ============ */
