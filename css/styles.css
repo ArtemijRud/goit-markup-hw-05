@@ -680,7 +680,7 @@ border: 1px solid rgba(0, 0, 0, 0.10);
 background-color: #E7E9FC;
 line-height: 0;
 fill: #2E2F42;
-background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-bth:hover, 
@@ -720,7 +720,7 @@ margin-bottom: 4px;
 }
 
 .rewiew-fild-wrapper {
-margin-bottom: 8px;
+margin-bottom: 16px;
 }
 
 .rewiew-form-input-wraper {
