@@ -650,13 +650,13 @@ margin-bottom: 16px;
 }
 
 .container-footer-form-label-inp {
- width: 264px;
- height: 40px;
-  border-radius: 4px;
-  border: 1px solid #FFFFFF;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background-color: transparent;
-  color: #FFFFFF;
+width: 264px;
+height: 40px;
+border-radius: 4px;
+border: 1px solid #FFFFFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+background-color: transparent;
+color: #FFFFFF;
 font-size: 12px;
 line-height: 1.5;
 letter-spacing: 0.04em;
@@ -678,7 +678,7 @@ border-radius: 4px;
 background-color: #4D5AE5;
 border: none;
 color: #FFFFFF;
-font-family: Roboto;
+font-family: Roboto, sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
