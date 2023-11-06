@@ -721,7 +721,10 @@ margin-bottom: 4px;
 
 .rewiew-fild-wrapper {
 margin-bottom: 8px;
-/* margin-bottom: 16px; */
+}
+
+.rewiew-fild-wrapper-area {
+margin-bottom: 16px;
 }
 
 .rewiew-form-input-wraper {
